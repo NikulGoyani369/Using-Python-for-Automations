@@ -14,6 +14,7 @@
 # pages = pagination.find_all('a', class_='page-link')
 # urls = []
 # for page in pages:
+#     pageNum = int(page.text) if page.text.isdigit() else None
 #     if pageNum != None:
 #         link = page.get('href')
 #         urls.append(link)
